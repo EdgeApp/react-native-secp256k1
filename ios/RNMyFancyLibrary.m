@@ -3,6 +3,7 @@
 #import <Secp256k1/Secp256k1.h>
 #import <Foundation/Foundation.h>
 #import "RCTConvert.h"
+#import "RCTUtils.h"
 
 @implementation RNMyFancyLibrary
 
