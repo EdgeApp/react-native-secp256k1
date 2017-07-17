@@ -139,7 +139,7 @@ RCT_EXPORT_METHOD(publicForPrivate:(NSString *)private
         callback(@[error, [NSNull null]]);
     }
     NSData *data =[self dataWithHexString:private];
-    NSData *pubKey = [self publicKeyFromKey:data compressed:NO];
+    NSData *pubKey = [self publicKeyFromKey:data compressed:YES];
     NSString *pubKeyString = [self hexadecimalStringFromData:pubKey];
     if ([pubKeyString isKindOfClass:[NSString class]] && [pubKeyString length] > 0) {
         callback(@[[NSNull null], pubKeyString]);
