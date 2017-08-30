@@ -16,7 +16,6 @@ public class RNMyFancyLibraryPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNMyFancyLibraryModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
