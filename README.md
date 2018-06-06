@@ -1,6 +1,8 @@
 
 # react-native-secp256k1
 
+*This project is deprecated*. Please see [react-native-fast-crypto](https://github.com/Airbitz/react-native-fast-crypto), which includes secp256k1 routines.
+
 ## Getting started
 
 `$ npm install react-native-secp256k1 --save`
